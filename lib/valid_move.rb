@@ -7,7 +7,7 @@ def position_taken?(board,index)# cod
 end
 
 def valid_move?(board,index)
-  return index.between?(-1,9) && !position_taken?(board,index)
+  index.between?(-1,9) && !position_taken?(board,index)
 end#valid_move? method here
 
 
